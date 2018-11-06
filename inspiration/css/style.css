@@ -1,0 +1,62 @@
+/*inspo html style sheet */
+
+body {
+    background-color: #262728;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+nav {
+    text-align: center;
+    word-spacing: 100px;
+    font-size: 25px;
+
+}
+
+nav a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+footer {
+    margin: 0 auto;
+   width: 1900px;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+}
+
+footer a {
+  color:#fff;
+}
+
+footer p {
+    color: #fff;
+
+}
